@@ -1,0 +1,47 @@
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 3em;
+    text-decoration: none;
+    position: relative;
+}
+.navbar a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 1pc;
+    padding-right: 33px;
+}
+.link{
+    display: flex;
+    padding-right: 23px;
+}
+.link h2{
+    position: relative;
+    right: 20px;
+}
+.link button{
+    position: relative;
+    height: 34px;
+    width: 93px;
+    border: 2px solid darkblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 2pc;
+    top: 20px;
+}
+.link button:nth-child(3){
+ background-color: darkblue;
+}
+
+hr{
+    position: relative;
+    top: 73px;
+}
