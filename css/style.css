@@ -1,16 +1,19 @@
 .nav{
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 5px;
+    right: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: none;
     position: relative;
+}
+body{
+    color: darkblue;
 }
 .navbar a{
     text-decoration: none;
@@ -25,7 +28,7 @@
 }
 .link h2{
     position: relative;
-    right: 20px;
+    right: 15px;
 }
 .link button{
     position: relative;
@@ -39,9 +42,55 @@
 }
 .link button:nth-child(3){
  background-color: darkblue;
+ transition: 2s;
 }
+.link button:nth-child(3):hover{
+    background-color: white;
+    color: darkblue;
+   }
+.link button:nth-child(2){
+    color: darkblue;
+    font-size: 15px;
+    transition: all 2s;
+   }
+   .link button:nth-child(2):hover{
+    background-color: darkblue;
+    color: white;
+   }
 
 hr{
     position: relative;
-    top: 73px;
+    top: 60px;
 }
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 93px;
+}
+.text h1{
+    font-size: 2pc;
+}
+.text p{
+ font-size: 1.12em;
+}
+.text button{
+    height: 43px;
+    width: 139px;
+    border-radius: 2pc;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    background: darkblue;
+    transition: all 2s;
+}
+.text button:hover{
+ color: darkblue;
+ background: white;
+}
+h6{
+    font-size: 10px;
+}
+span{
+    color: blue;
+}  
