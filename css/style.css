@@ -1,16 +1,19 @@
 .nav{
     position: absolute;
     top: 0;
-    left: 5px;
-    right: 5px;
+    left: 90px;
+    right: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
     position: relative;
+}
+.logo img{
+    font-size: 23px;
 }
 body{
     color: darkblue;
@@ -68,6 +71,11 @@ hr{
     justify-content: space-between;
     top: 93px;
 }
+.text{
+    border: none;
+    height: 30pc;
+    width: 17pc;
+}
 .text h1{
     font-size: 2pc;
 }
@@ -94,3 +102,148 @@ h6{
 span{
     color: blue;
 }  
+.links button:nth-child(2):hover{
+  background-color: darkblue;
+  color: white;
+}
+.img{
+    border-top-left-radius: 203px;
+    background: blue;
+    position: relative;
+    height: 25pc;
+    width: 23pc;
+}
+.img video{
+    height: 20pc;
+    width: 23pc;
+    border-top-left-radius: 203px;
+}
+.a{
+    border: 1px solid yellow;
+    width: 65pc;
+    height: 53px;
+    background-color: yellow;
+    position: absolute;
+    top: 28pc;
+    border-top-right-radius: 23pc;
+}
+.er{
+    background: blue;
+    height: 103px;
+    width: 400px;
+    border-top-right-radius: 9pc;
+    position: relative;
+    top: 3pc;
+}
+.about{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 103px;
+    left: 8pc;
+    right: 30pc;
+    width: 59pc;
+    text-align: center;
+    align-items: center;
+}
+.heading{
+    font-size: 4pc;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 143px;
+    position: relative;
+    top: 1pc;
+}
+.image img{
+  height: 16pc;
+}
+.tet{
+    position: relative;
+    left: 493px;
+    bottom: 234px;
+    font-size: 53px;
+    width: 409px;
+}
+.textand{
+   justify-content: space-between;
+}
+.textandimg{
+    position: relative;
+    left: 213px;
+    font-size: 44px;
+    width: 363px;
+}
+.page img{
+    float: right;
+    position: relative;
+    bottom: 13px;
+}
+.page{
+    background: darkblue;
+    height: 493px;
+    position: relative;
+    bottom: 493px;
+    width: 47pc;
+    border-top-left-radius: 19pc;
+    float: right;
+
+}
+.service{
+    position: relative;
+    top: 34pc;
+}
+.box{
+background-color: blue;
+height: 36pc;
+width: 37pc;
+border-bottom-right-radius: 284px;
+}
+.write{
+    position: relative;
+    float: right;
+    bottom: 23pc;
+    font-size: 3pc;
+    right: 104px;
+}
+.head{
+    font-size: 3pc;
+    position: relative;
+    top: 674px;
+    background-color: gold;
+    text-align: center;
+    height: 23pc;
+}
+p{
+    position: relative;
+    text-align: center;
+    left: 10pc;
+}
+.flex{
+    position: relative;
+    top: 53pc;
+    text-align: center;
+}
+.top{
+    font-size: 6pc;
+    bottom: 134px;
+}
+.right img{
+    height: 53pc;
+    float: left;
+    position: relative;
+    left: 73px;
+}
+.left{
+    position: relative;
+    top: 254px;
+}
+.left h1{
+    font-size: 3pc;
+}
+.left p{
+    position: relative;
+    left: 12px;
+    color: rgb(163, 159, 159);
+
+}
