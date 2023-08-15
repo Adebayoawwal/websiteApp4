@@ -1,0 +1,77 @@
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 90px;
+    right: 90px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.logo{
+    font-size: 1em;
+    text-decoration: none;
+    position: relative;
+}
+.logo img{
+    font-size: 23px;
+}
+body{
+    background-color: rgb(240, 243, 247);
+    color: darkblue;
+}
+.navbar a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 1pc;
+    padding-right: 33px;
+}
+.link{
+    display: flex;
+    padding-right: 23px;
+}
+.link h2{
+    position: relative;
+    right: 15px;
+}
+.link button{
+    position: relative;
+    height: 34px;
+    width: 93px;
+    border: 2px solid darkblue;
+    color: white;
+    font-size: 15px;
+    border-radius: 2pc;
+    top: 20px;
+}
+.link button:nth-child(3){
+ background-color: darkblue;
+ transition: 2s;
+}
+.link button:nth-child(3):hover{
+    background-color: white;
+    color: darkblue;
+   }
+.link button:nth-child(2){
+    color: darkblue;
+    font-size: 15px;
+    transition: all 2s;
+   }
+   .link button:nth-child(2):hover{
+    background-color: darkblue;
+    color: white;
+   }
+
+hr{
+    position: relative;
+    top: 60px;
+}
+.context{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 45pc;
+    transform: translate(-50%,-50%);
+}

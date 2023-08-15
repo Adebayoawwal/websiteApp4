@@ -1,5 +1,5 @@
 .nav{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 90px;
     right: 90px;
@@ -81,6 +81,8 @@ hr{
 }
 .text p{
  font-size: 1.12em;
+ position: relative;
+right: 84pc;
 }
 .text button{
     height: 43px;
@@ -246,4 +248,39 @@ p{
     left: 12px;
     color: rgb(163, 159, 159);
 
+}
+.left h2 a i{
+    background: rgb(166, 166, 233);
+    height: 35px;
+    width: 35px;
+    border-radius: 23px;
+    font-size: 2pc;
+    color: blue;
+}
+.context{
+    position: relative;
+    top: 97pc;
+}
+.lft{
+    font-size: 2em;
+    float: left;
+    position: relative;
+    right: 25pc;
+}
+.lft p{
+    position: relative;
+    left: 1pc;
+}
+.lft h2 a i{
+    background: rgb(166, 166, 233);
+    height: 35px;
+    width: 35px;
+    border-radius: 23px;
+    font-size: 2pc;
+    color: blue;
+}
+.rgt img{
+ float: right;
+ position: relative;
+ bottom: 23pc;
 }
